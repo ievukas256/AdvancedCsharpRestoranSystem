@@ -1,0 +1,32 @@
+[
+  {
+    "TableId": 1,
+    "TableSeats": 4,
+    "IsFreeTable": true
+  },
+  {
+    "TableId": 2,
+    "TableSeats": 4,
+    "IsFreeTable": true
+  },
+  {
+    "TableId": 3,
+    "TableSeats": 2,
+    "IsFreeTable": true
+  },
+  {
+    "TableId": 4,
+    "TableSeats": 2,
+    "IsFreeTable": true
+  },
+  {
+    "TableId": 5,
+    "TableSeats": 6,
+    "IsFreeTable": true
+  },
+  {
+    "TableId": 6,
+    "TableSeats": 6,
+    "IsFreeTable": true
+  }
+]

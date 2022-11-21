@@ -1,0 +1,38 @@
+[
+  {
+    "ProductId": 11,
+    "ProductName": "Water",
+    "ProductPrice": 1.00,
+    "IsAlcohol": false
+  },
+  {
+    "ProductId": 12,
+    "ProductName": "Coffee",
+    "ProductPrice": 3.50,
+    "IsAlcohol": false
+  },
+  {
+    "ProductId": 13,
+    "ProductName": "Juice",
+    "ProductPrice": 2.50,
+    "IsAlcohol": false
+  },
+  {
+    "ProductId": 14,
+    "ProductName": "Tea",
+    "ProductPrice": 2.10,
+    "IsAlcohol": false
+  },
+  {
+    "ProductId": 15,
+    "ProductName": "Bear",
+    "ProductPrice": 5.80,
+    "IsAlcohol": true
+  },
+  {
+    "ProductId": 16,
+    "ProductName": "Cider",
+    "ProductPrice": 6.30,
+    "IsAlcohol": true
+  }
+]

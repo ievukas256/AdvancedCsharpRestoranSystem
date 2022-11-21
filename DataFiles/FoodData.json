@@ -1,0 +1,32 @@
+[
+  {
+    "ProductId": 1,
+    "ProductName": "Fish and chips",
+    "ProductPrice": 10.00
+  },
+  {
+    "ProductId": 2,
+    "ProductName": "Grilled chicken",
+    "ProductPrice": 12.50
+  },
+  {
+    "ProductId": 3,
+    "ProductName": "Hamburger",
+    "ProductPrice": 5.00
+  },
+  {
+    "ProductId": 4,
+    "ProductName": "Potato chips",
+    "ProductPrice": 3.50
+  },
+  {
+    "ProductId": 5,
+    "ProductName": "Pizza",
+    "ProductPrice": 8.00
+  },
+  {
+    "ProductId": 6,
+    "ProductName": "Salad",
+    "ProductPrice": 7.20
+  }
+]
