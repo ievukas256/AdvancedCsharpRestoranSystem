@@ -1,17 +1,10 @@
 ﻿using AdvancedExamRestoran.Entities;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
-using System.Text.Json;
-using JsonSerializer = Newtonsoft.Json.JsonSerializer;
+using AdvancedExamRestoran.Interfaces;
 
 namespace AdvancedExamRestoran.Repositories
 {
-    public class DrinksRepository
+    public class DrinksRepository :IProducts
     {
         private List<Drinks> drinks { get; set; } = new List<Drinks>();
         public DrinksRepository()
@@ -21,6 +14,17 @@ namespace AdvancedExamRestoran.Repositories
                 string json = r.ReadToEnd();
                 drinks = JsonConvert.DeserializeObject<List<Drinks>>(json);
             }
+        }
+        public void ShowProducts()
+        {
+            foreach (Drinks item in drinks)
+            {
+                Console.WriteLine($"Drink: {item.ProductId} - {item.ProductName}");
+            }
+        }
+        public Drinks Retrieve(int itemId)
+        {
+            return drinks.FirstOrDefault(x => x.ProductId == itemId);
         }
     }
 }
