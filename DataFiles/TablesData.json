@@ -2,7 +2,7 @@
   {
     "TableId": 1,
     "TableSeats": 4,
-    "IsFreeTable": true
+    "IsFreeTable": false
   },
   {
     "TableId": 2,

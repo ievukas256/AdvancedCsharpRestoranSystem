@@ -1,10 +1,120 @@
-{
-  "exclude": [
-    "**/bin",
-    "**/bower_components",
-    "**/jspm_packages",
-    "**/node_modules",
-    "**/obj",
-    "**/platforms"
-  ]
-}
+[
+  {
+    "OrderId": 1,
+    "TableId": 6,
+    "OrderedProducts": [
+      {
+        "ProductName": "Grilled chicken",
+        "ProductPrice": 12.5,
+        "Quantity": 2,
+        "Price": 0.0
+      }
+    ],
+    "TotalPrice": 25.0,
+    "Date": "2022-11-26T22:23:58.0460031+02:00"
+  },
+  {
+    "OrderId": 2,
+    "TableId": 1,
+    "OrderedProducts": [
+      {
+        "ProductName": "Pizza",
+        "ProductPrice": 8.0,
+        "Quantity": 2,
+        "Price": 16.0
+      },
+      {
+        "ProductName": "Juice",
+        "ProductPrice": 2.5,
+        "Quantity": 2,
+        "Price": 5.0
+      }
+    ],
+    "TotalPrice": 21.0,
+    "Date": "2022-11-26T22:30:04.2952227+02:00"
+  },
+  {
+    "OrderId": 3,
+    "TableId": 3,
+    "OrderedProducts": [
+      {
+        "ProductName": "Bear",
+        "ProductPrice": 5.8,
+        "Quantity": 2,
+        "Price": 12.0
+      }
+    ],
+    "TotalPrice": 12.0,
+    "Date": "2022-11-27T13:57:52.4942304+02:00"
+  },
+  {
+    "OrderId": 4,
+    "TableId": 1,
+    "OrderedProducts": [
+      {
+        "ProductName": "Potato chips",
+        "ProductPrice": 3.5,
+        "Quantity": 3,
+        "Price": 10.0
+      }
+    ],
+    "TotalPrice": 10.0,
+    "Date": "2022-11-27T14:28:36.34347+02:00"
+  },
+  {
+    "OrderId": 5,
+    "TableId": 2,
+    "OrderedProducts": [
+      {
+        "ProductName": "Fish and chips",
+        "ProductPrice": 10.0,
+        "Quantity": 2,
+        "Price": 20.0
+      }
+    ],
+    "TotalPrice": 20.0,
+    "Date": "2022-11-27T14:58:05.3379485+02:00"
+  },
+  {
+    "OrderId": 6,
+    "TableId": 4,
+    "OrderedProducts": [
+      {
+        "ProductName": "Cider",
+        "ProductPrice": 6.3,
+        "Quantity": 2,
+        "Price": 13.0
+      }
+    ],
+    "TotalPrice": 13.0,
+    "Date": "2022-11-27T15:09:43.1608663+02:00"
+  },
+  {
+    "OrderId": 7,
+    "TableId": 1,
+    "OrderedProducts": [
+      {
+        "ProductName": "Salad",
+        "ProductPrice": 7.2,
+        "Quantity": 3,
+        "Price": 22.0
+      }
+    ],
+    "TotalPrice": 22.0,
+    "Date": "2022-11-27T15:19:15.3746467+02:00"
+  },
+  {
+    "OrderId": 8,
+    "TableId": 1,
+    "OrderedProducts": [
+      {
+        "ProductName": "Juice",
+        "ProductPrice": 2.5,
+        "Quantity": 5,
+        "Price": 12.0
+      }
+    ],
+    "TotalPrice": 12.0,
+    "Date": "2022-11-27T15:25:32.0171042+02:00"
+  }
+]
